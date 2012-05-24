@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,7 +22,6 @@
 		3AE06681138E6F88008EE71A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE06680138E6F88008EE71A /* AVFoundation.framework */; };
 		3AE06693138E7056008EE71A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE06692138E7056008EE71A /* OpenGLES.framework */; };
 		3AE06695138E70B9008EE71A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE06694138E70B9008EE71A /* libz.dylib */; };
-		3AE06699138E70F0008EE71A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE06696138E70F0008EE71A /* CoreGraphics.framework */; };
 		3AE0669A138E70F0008EE71A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE06697138E70F0008EE71A /* CoreMedia.framework */; };
 		3AE0669B138E70F0008EE71A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE06698138E70F0008EE71A /* CoreVideo.framework */; };
 		3AE0669D138E710C008EE71A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE0669C138E710C008EE71A /* QuartzCore.framework */; };
@@ -136,7 +135,6 @@
 				3AE06681138E6F88008EE71A /* AVFoundation.framework in Frameworks */,
 				3AE06693138E7056008EE71A /* OpenGLES.framework in Frameworks */,
 				3AE06695138E70B9008EE71A /* libz.dylib in Frameworks */,
-				3AE06699138E70F0008EE71A /* CoreGraphics.framework in Frameworks */,
 				3AE0669A138E70F0008EE71A /* CoreMedia.framework in Frameworks */,
 				3AE0669B138E70F0008EE71A /* CoreVideo.framework in Frameworks */,
 				3AE0669D138E710C008EE71A /* QuartzCore.framework in Frameworks */,
@@ -285,10 +283,11 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Teluu Inc. (http://www.teluu.com)";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ipjsua" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -429,7 +428,6 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -460,7 +458,6 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
