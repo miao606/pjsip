@@ -350,18 +350,7 @@
 				);
 				INFOPLIST_FILE = "ipjsua-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../third_party/lib\"",
-					"\"$(SRCROOT)/../../../pjlib/lib\"",
-					"\"$(SRCROOT)/../../../pjlib-util/lib\"",
-					"\"$(SRCROOT)/../../../pjmedia/lib\"",
-					"\"$(SRCROOT)/../../../pjnath/lib\"",
-					"\"$(SRCROOT)/../../../pjsip/lib\"",
-					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/AVFoundation.framework\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/SDLiPhoneOS-fyjdxvchuwlpnghehmebkvasdrke/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../video/ffmpeg-iphone/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = ipjsua;
 				SDKROOT = iphoneos;
@@ -383,18 +372,7 @@
 				);
 				INFOPLIST_FILE = "ipjsua-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../third_party/lib\"",
-					"\"$(SRCROOT)/../../../pjlib/lib\"",
-					"\"$(SRCROOT)/../../../pjlib-util/lib\"",
-					"\"$(SRCROOT)/../../../pjmedia/lib\"",
-					"\"$(SRCROOT)/../../../pjnath/lib\"",
-					"\"$(SRCROOT)/../../../pjsip/lib\"",
-					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/AVFoundation.framework\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/SDLiPhoneOS-fyjdxvchuwlpnghehmebkvasdrke/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../video/ffmpeg-iphone/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = ipjsua;
 				SDKROOT = iphoneos;
@@ -418,14 +396,7 @@
 					../../../pjnath/include,
 					../../../pjmedia/include,
 				);
-				LIBRARY_SEARCH_PATHS = (
-					../../../pjlib/lib,
-					"../../../pjlib-util/lib",
-					../../../pjnath/lib,
-					../../../pjmedia/lib,
-					../../../pjsip/lib,
-					../../../third_party/lib,
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
@@ -448,14 +419,7 @@
 					../../../pjnath/include,
 					../../../pjmedia/include,
 				);
-				LIBRARY_SEARCH_PATHS = (
-					../../../pjlib/lib,
-					"../../../pjlib-util/lib",
-					../../../pjnath/lib,
-					../../../pjmedia/lib,
-					../../../pjsip/lib,
-					../../../third_party/lib,
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
