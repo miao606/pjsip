@@ -1,0 +1,8 @@
+
+# Built artifacts
+lib/*.so
+lib/*.a
+build/
+/bin/
+/lib/
+
