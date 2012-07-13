@@ -59,6 +59,11 @@ APP_THIRD_PARTY_LIBS += -lg7221codec-$(TARGET_NAME)
 APP_THIRD_PARTY_LIB_FILES += $(PJ_DIR)/third_party/lib/libg7221codec-$(LIB_SUFFIX)
 endif
 
+ifeq (@ac_has_g729_codec@,1)
+APP_THIRD_PARTY_LIBS += -lg729a
+APP_THIRD_PARTY_LIB_FILES += $(PJ_DIR)/third_party/g729/lib
+endif
+
 ifneq ($(findstring pa,@ac_pjmedia_snd@),)
 ifeq (@ac_external_pa@,1)
 # External PA
