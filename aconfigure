@@ -3984,11 +3984,6 @@ if test "x$ac_cv_lib_uuid_uuid_generate" = xyes; then :
 #define HAVE_LIBUUID 1
 _ACEOF
 
-<<<<<<< HEAD
-=======
-  LIBS="$LIBS"
-
->>>>>>> Remove presence of -luuid flags additions in aconfigure.
 fi
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for uuid_generate in -luuid" >&5
